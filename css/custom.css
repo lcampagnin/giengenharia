@@ -1,5 +1,18 @@
-/* space */
+/* personalize font */
+@font-face {
+  font-family: 'AminoAlt-Regular2';
+  src: url('AminoAlt-Regular2.eot');
+  src: url('AminoAlt-Regular2.woff2') format('woff2'),
+       url('AminoAlt-Regular2.woff') format('woff'),
+       url('AminoAlt-Regular2.ttf') format('truetype'),
+       url('AminoAlt-Regular2.svg#AminoAlt-Regular2') format('svg'),
+       url('AminoAlt-Regular2.eot?#iefix') format('embedded-opentype');
+  font-weight: normal;
+  font-weight: lighter;
+  font-style: normal;
+}
 
+/* space */
 .space30 {
   padding:40px;
 }
@@ -8,14 +21,14 @@
 body {
     font-size: 15px;
     line-height: 24px;
-    font-family: 'futura_ltbook', sans-serif;
+    font-family: 'AminoAlt-Regular2' 'Amino';
     color: #484848;
 }
 h1, h2, h3, h4, h5, h6 {
     font-weight: bold;
     text-transform: uppercase;
     color: #00b2ae;
-    font-family: 'futura_ltbold', sans-serif;
+    font-family: 'AmninoAlt-Regular', 'Amino';
 }
 h1{font-size: 70px; margin:0; line-height: 72px;}
 h2 {font-size: 30px; margin: 0 0 20px;}
@@ -34,8 +47,6 @@ a:hover,a:focus{ text-decoration: none}
 }
 
 /* Header */
-
-
 /*Preloader css*/
 #loading{
     background-color: #00afaa;
@@ -131,9 +142,7 @@ a:hover,a:focus{ text-decoration: none}
     }
 
 }
-
 /*End off Preloader*/
-
 
 
 
@@ -154,7 +163,7 @@ a:hover,a:focus{ text-decoration: none}
 }
 .list-inline.info a,.list-inline.social_icon a {
     color: #27e2d8;
-    font-family: 'futura_ltbook', sans-serif;
+    font-family: ''AmninoAlt-Regular', 'Amino';
 }
 .list-inline.info a:hover,.list-inline.social_icon a:hover {
     color: #ccdc32;
@@ -224,22 +233,25 @@ nav.navbar.bootsnav ul.nav > li > a:hover,nav.navbar.bootsnav ul.nav > li > a:fo
 .carousel-caption {
     left: 7%;
     right: 7%;
-    top: 70px;
+    top: 300px;
 }
 .carousel-caption h1 {
     color: #fff;
-    margin-bottom:20px;
+    margin-bottom:300px;
 }
 .carousel-caption h1.second_heading {
     color:#00afaa;
+    font-size: 30px;
     margin-bottom:35px;
+    font-family: 'AmninoAlt-Regular', 'Amino';
 }
 .carousel-caption > h3 {
     color: #fff;
-    font-family: "futura_ltbook",sans-serif;
+    font-family: 'AmninoAlt-Regular', 'Amino';
     font-size: 40px;
     font-weight: normal;
     margin-bottom: 30px;
+    margin-top: 150px;
     text-transform: inherit;
 }
 .carousel-caption > p {
@@ -250,7 +262,7 @@ nav.navbar.bootsnav ul.nav > li > a:hover,nav.navbar.bootsnav ul.nav > li > a:fo
     background: #00afaa none repeat scroll 0 0;
     border-radius: 30px;
     color: #fff;
-    font-family: "futura_ltbold",sans-serif;
+    font-family: 'AmninoAlt-Regular', 'Amino';
     font-size: 16px;
     padding: 10px 20px;
     text-transform: uppercase;
@@ -268,8 +280,6 @@ nav.navbar.bootsnav ul.nav > li > a:hover,nav.navbar.bootsnav ul.nav > li > a:fo
     color:#00afaa;
     border:1px solid #00afaa;
 }
-
-
 
 
 .carousel-control{
@@ -304,7 +314,7 @@ nav.navbar.bootsnav ul.nav > li > a:hover,nav.navbar.bootsnav ul.nav > li > a:fo
     margin: 18px 0 60px;
 }
 .about_bg {
-    background: url(../images/about_bg.png)no-repeat right;
+    background: url()no-repeat right;
 }
 
 /*Head Title*/
@@ -349,7 +359,7 @@ nav.navbar.bootsnav ul.nav > li > a:hover,nav.navbar.bootsnav ul.nav > li > a:fo
 
 /* Portfolio */
 #portfolio {
-    background: rgba(0, 0, 0, 0) url("../images/portfolio_bg.jpg") no-repeat scroll 0 0;
+    background: rgba(0, 0, 0, 0) url() no-repeat scroll 0 0;
     background-size:cover;
     position:relative;
     padding-bottom: 102px;
@@ -547,7 +557,7 @@ nav.navbar.bootsnav ul.nav > li > a:hover,nav.navbar.bootsnav ul.nav > li > a:fo
 }
 #contact_form .second_heading {
     font-size: 40px;
-    font-family: "futura_ltbook",sans-serif;
+    font-family: 'AmninoAlt-Regular', 'Amino';
     margin:8px 0;
     color: #1a1c27;
 
@@ -623,7 +633,7 @@ footer::after {
 }
 .footer_item > h4 {
     color: #ceea24;
-    font-family: "futura_ltbook",sans-serif;
+    font-family: 'Amino','AminoAlt-Regular2';
     font-size: 25px;
     margin-bottom: 34px;
     text-transform: inherit;
